@@ -9,15 +9,6 @@ public class MiddleLinkedList {
           next = null;
       }
    }
-	public static void main(String[] args) {
-		int one = 1;
-		ListNode head = new ListNode(one);
-		head.next.val =2;
-		head.next.next.val = 3;
-		head.next.next.next.val = 4;
-		
-		System.out.println(middleNode(head));
-	}
 	
 	public static ListNode middleNode(ListNode head) {
 		ListNode[] ln = new ListNode[100];
